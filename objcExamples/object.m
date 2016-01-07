@@ -16,9 +16,19 @@
     object *obj = [[object alloc] init];
     obj->firstValue = firstValue;
     obj->secondValue = secondValue;
-    
+    obj->_thirdValue = 0; //@property
     //[obj autorelease];
     return obj;
+}
+
++(void) openFile: (NSString*)filePath{
+    NSError *error = nil;
+    
+    NSString *fileContent = [NSString stringWithContentsOfFile:filePath encoding:NSASCIIStringEncoding error:&error];
+    
+    if(error!=nil){
+        NSLog(NSString stringWithFormat:@"%s", error);
+    }
 }
 
 -(id)initWithparams:(int)firstValueInt secondParam:(int)secondValueInt{

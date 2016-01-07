@@ -28,6 +28,7 @@
 		41E8C9791C3E531400A6F2E5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		41E8C9811C3E566F00A6F2E5 /* object.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = object.h; path = ../object.h; sourceTree = "<group>"; };
 		41E8C9821C3E56AD00A6F2E5 /* object.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = object.m; sourceTree = "<group>"; };
+		41E8C9841C3F090500A6F2E5 /* misc.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = misc.rtf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +64,7 @@
 				41E8C9811C3E566F00A6F2E5 /* object.h */,
 				41E8C9821C3E56AD00A6F2E5 /* object.m */,
 				41E8C9791C3E531400A6F2E5 /* main.m */,
+				41E8C9841C3F090500A6F2E5 /* misc.rtf */,
 			);
 			path = objcExamples;
 			sourceTree = "<group>";
