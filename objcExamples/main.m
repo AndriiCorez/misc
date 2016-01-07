@@ -7,11 +7,19 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "object.h"
 
 int main(int argc, const char * argv[]) {
-    @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
-    }
+
+    /*enum Direction {
+        North,
+        South,
+        East,
+        West
+    };
+    enum Direction a = North;*/
+    
+    object *obj = [[object alloc] init];
+    object *obj1 = [[object alloc] initWithparams:1 secondParam:2];
     return 0;
 }
