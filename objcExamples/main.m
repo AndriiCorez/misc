@@ -23,6 +23,6 @@ int main(int argc, const char * argv[]) {
     object *obj1 = [[object alloc] initWithparams:1 secondParam:2];
     obj1.thirdValue = 3;
     NSLog([NSString stringWithFormat:@"%i", obj1.thirdValue]);
-    
+    [object openFile:@""];
     return 0;
 }

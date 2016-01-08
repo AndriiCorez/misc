@@ -27,7 +27,7 @@
     NSString *fileContent = [NSString stringWithContentsOfFile:filePath encoding:NSASCIIStringEncoding error:&error];
     
     if(error!=nil){
-        NSLog(NSString stringWithFormat:@"%s", error);
+        NSLog([NSString stringWithFormat:@"%@", error ]);
     }
 }
 
